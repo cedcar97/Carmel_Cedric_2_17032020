@@ -14,3 +14,98 @@ font-family: "Raleway";
 
 
 }
+
+#en-tete
+{
+height: 102px;
+width: 65vw;
+border: 1px blue solid ;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+
+
+
+}
+
+header
+{
+position: relative;
+bottom: 60px;
+
+
+
+}
+nav
+{
+position: relative;
+left: 75vw;
+height: 51px;
+width: 20vw;
+border: 1px blue solid;
+
+}
+
+#hebergements
+{
+height: 716px;
+width: 40vw;
+border: 1px blue solid;
+display: flex;
+flex-flow:row wrap;
+justify-content:space-around;
+
+
+
+}
+
+#hpopulaires
+{
+    height: 716px;
+    width: 15vw;
+    border: 1px blue solid;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
+    position: relative;
+    left: 55vw;
+    bottom: 718px;
+    
+
+}
+
+#activites1
+{
+height: 306px;
+width: 40vw;
+border: 1px blue solid;
+display: flex;
+flex-flow:column wrap;
+justify-content:space-around;
+position: relative;
+bottom: 718px;
+    
+}
+
+#activites2
+{
+height: 306px;
+width: 40vw;
+border: 1px blue solid;
+display: flex;
+flex-flow:column wrap;
+justify-content:space-around;
+position: relative;
+left: 43vw;
+bottom: 1025px;
+
+}
+
+#act
+{
+    position: relative;
+    bottom: 718px;
+    
+
+
+}
