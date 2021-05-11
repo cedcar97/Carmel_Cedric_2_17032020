@@ -49,12 +49,13 @@ border: 1px blue solid;
 #hebergements
 {
 height: 767px;
-width: 40vw;
+width: 45vw;
 border: 1px blue solid;
 display: flex;
 flex-flow:row wrap;
 
 justify-content: space-around;
+
 
 
 
@@ -68,6 +69,7 @@ justify-content: space-around;
     display: flex;
     flex-flow:column wrap;
     justify-content:space-around;
+    align-content: center;
     position: relative;
     left: 55vw;
     bottom: 770px;
@@ -126,14 +128,15 @@ bottom: 1025px;
 #pied_de_page
 {
 height: 204px;
-width: 90vw;
+width: 98vw;
     display: flex;
     flex-flow:column wrap;
     justify-content:space-around;
     align-items:center ;
 border: blue 1px solid;
 position: relative;
-bottom: 974px;;
+bottom: 974px;
+
 
 }
 
@@ -151,7 +154,8 @@ align-self:center;
 height: 50px;
 width: 65vw;
 border-bottom: solid 1px red;
-
+box-sizing: border-box;
+padding-left: 1vw;
 
 }
 
@@ -165,12 +169,31 @@ align-self: flex-start;
 
 }
 
-.h1:nth-child(7)
+.et:nth-child(3),.et:nth-child(4),.et:nth-child(5),.et:nth-child(6),.et:nth-child(7)
 {
- justify-self: flex-start;
+height: 40px;
+width: 10vw;
+border:solid 1px red;
+justify-self: flex-start;
+
+
+
+
+}
+
+
+
+
+.h1:nth-child(8)
+{
+ text-align:left;
  height: 50px;
- width: 40vw;
- border-bottom: solid 1px red;
+ width: 45vw;
+ border: solid 1px red;
+ box-sizing: border-box;
+ padding: 10px;
+ 
+ 
 
 }
 
@@ -184,4 +207,14 @@ position: relative;
 left:13vw;
 bottom: 53px;
 }
+
+.h1:nth-child(1)
+{
+width: 45vw;
+
+border: solid 1px red;
+
+}
+
+
 
