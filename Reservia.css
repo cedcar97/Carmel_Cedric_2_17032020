@@ -17,11 +17,11 @@ font-family: "Raleway";
 
 #en-tete
 {
-height: 102px;
+height: 204px;
 width: 65vw;
 border: 1px blue solid ;
 display: flex;
-flex-direction: row;
+flex-flow: row wrap;
 justify-content:space-around;
 
 
@@ -48,12 +48,13 @@ border: 1px blue solid;
 
 #hebergements
 {
-height: 716px;
+height: 767px;
 width: 40vw;
 border: 1px blue solid;
 display: flex;
 flex-flow:row wrap;
-justify-content:space-around;
+
+justify-content: space-around;
 
 
 
@@ -61,7 +62,7 @@ justify-content:space-around;
 
 #hpopulaires
 {
-    height: 716px;
+    height: 767px;
     width: 15vw;
     border: 1px blue solid;
     display: flex;
@@ -69,7 +70,7 @@ justify-content:space-around;
     justify-content:space-around;
     position: relative;
     left: 55vw;
-    bottom: 718px;
+    bottom: 770px;
     
 
 }
@@ -116,8 +117,71 @@ bottom: 1025px;
     display: flex;
     flex-flow:row wrap;
     justify-content:space-around;
-    align-items: center;
+    
 
 
 
 }
+
+#pied_de_page
+{
+height: 204px;
+width: 90vw;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
+    align-items:center ;
+border: blue 1px solid;
+position: relative;
+bottom: 974px;;
+
+}
+
+.et
+{
+align-self:flex-end;
+justify-self:flex-start;
+height: 40px;
+}
+
+.et:nth-child(2)
+{
+align-self:center;
+
+height: 50px;
+width: 65vw;
+border-bottom: solid 1px red;
+
+
+}
+
+.et:nth-child(1)
+{
+height: 50px;
+width: 65vw;
+border-bottom: solid 1px red;
+align-self: flex-start;
+
+
+}
+
+.h1:nth-child(7)
+{
+ justify-self: flex-start;
+ height: 50px;
+ width: 40vw;
+ border-bottom: solid 1px red;
+
+}
+
+.hp:nth-child(2)
+{
+
+width: 1vw;
+height: 25px;
+border-bottom: solid 1px red;
+position: relative;
+left:13vw;
+bottom: 53px;
+}
+
