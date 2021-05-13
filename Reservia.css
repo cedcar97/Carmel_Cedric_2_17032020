@@ -64,15 +64,17 @@ justify-content: space-around;
 #hpopulaires
 {
     height: 767px;
-    width: 15vw;
+    width: 30vw;
     border: 1px blue solid;
     display: flex;
     flex-flow:column wrap;
     justify-content:space-around;
-    align-content: center;
+    align-content: flex-start;
     position: relative;
     left: 55vw;
     bottom: 770px;
+    box-sizing: border-box;
+    padding-left: 50px;
     
 
 }
@@ -140,12 +142,7 @@ bottom: 974px;
 
 }
 
-.et
-{
-align-self:flex-end;
-justify-self:flex-start;
-height: 40px;
-}
+
 
 .et:nth-child(2)
 {
@@ -165,6 +162,8 @@ height: 50px;
 width: 65vw;
 border-bottom: solid 1px red;
 align-self: flex-start;
+box-sizing: border-box;
+padding-left: 10px;
 
 
 }
@@ -216,5 +215,35 @@ border: solid 1px red;
 
 }
 
+i
+{
+color:#0065FC ;
 
 
+}
+
+.gris
+{
+
+color:  #F2F2F2;
+
+
+
+
+}
+
+i.fa-chart-line
+{
+color: black;
+
+
+}
+
+.des
+{
+position: relative;
+left: 150px;
+bottom: 100px;
+
+
+}
