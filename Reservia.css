@@ -49,7 +49,7 @@ border: 1px blue solid;
 #hebergements
 {
 height: 767px;
-width: 45vw;
+width: 55vw;
 border: 1px blue solid;
 display: flex;
 flex-flow:row wrap;
@@ -170,7 +170,7 @@ padding-left: 10px;
 
 .et:nth-child(3),.et:nth-child(4),.et:nth-child(5),.et:nth-child(6),.et:nth-child(7)
 {
-height: 40px;
+height: 30px;
 width: 10vw;
 border:solid 1px red;
 justify-self: flex-start;
@@ -187,7 +187,7 @@ justify-self: flex-start;
 {
  text-align:left;
  height: 50px;
- width: 45vw;
+ width: 55vw;
  border: solid 1px red;
  box-sizing: border-box;
  padding: 10px;
@@ -203,13 +203,13 @@ width: 1vw;
 height: 25px;
 border-bottom: solid 1px red;
 position: relative;
-left:13vw;
-bottom: 53px;
+left:23vw;
+bottom: 83px;
 }
 
 .h1:nth-child(1)
 {
-width: 45vw;
+width: 55vw;
 
 border: solid 1px red;
 
@@ -245,5 +245,32 @@ position: relative;
 left: 150px;
 bottom: 100px;
 
+
+}
+
+.h1:nth-child(2),.h1:nth-child(3),.h1:nth-child(4),.h1:nth-child(5),.h1:nth-child(6),.h1:nth-child(7)
+{
+width: 15vw;
+height: 250px;
+border: solid 1px red;
+box-sizing: border-box;
+padding-left: 25px;
+padding-top:5px ;
+
+
+
+
+}
+
+.hp:nth-child(3),.hp:nth-child(4),.hp:nth-child(5)
+{
+width: 25vw;
+height: 150px;
+border: solid 1px red;
+box-sizing: border-box;
+padding-left: 15px;
+padding-top:15px ;
+position: relative;
+bottom: 70px;
 
 }
