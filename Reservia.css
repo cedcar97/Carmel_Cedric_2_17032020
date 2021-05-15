@@ -48,12 +48,12 @@ border: 1px blue solid;
 
 #hebergements
 {
-height: 767px;
-width: 55vw;
+height: 835px;
+width: 1175px;
 border: 1px blue solid;
 display: flex;
 flex-flow:row wrap;
-
+border-radius: 20px;
 justify-content: space-around;
 
 
@@ -70,50 +70,27 @@ justify-content: space-around;
     flex-flow:column wrap;
     justify-content:space-around;
     align-content: flex-start;
-    position: relative;
-    left: 55vw;
-    bottom: 770px;
+    border-radius: 20px;
     box-sizing: border-box;
     padding-left: 50px;
     
 
 }
 
-#activites1
+#activites1,#activites2,#activites3,#activites4
 {
-height: 306px;
-width: 40vw;
+height: 600px;
+width: 420px;
 border: 1px blue solid;
-display: flex;
+display: block;
 flex-flow:column wrap;
-justify-content:space-around;
-position: relative;
-bottom: 718px;
-    
+justify-content:space-between;
+box-sizing: border-box;
+padding: 5px;
+border-radius: 20px;    
 }
 
-#activites2
-{
-height: 306px;
-width: 40vw;
-border: 1px blue solid;
-display: flex;
-flex-flow:column wrap;
-justify-content:space-around;
-position: relative;
-left: 43vw;
-bottom: 1025px;
 
-}
-
-#act
-{
-    position: relative;
-    bottom: 718px;
-    
-
-
-}
 
 #nav
 {
@@ -130,14 +107,14 @@ bottom: 1025px;
 #pied_de_page
 {
 height: 204px;
-width: 98vw;
+width: 100%;
     display: flex;
     flex-flow:column wrap;
     justify-content:space-around;
     align-items:center ;
 border: blue 1px solid;
-position: relative;
-bottom: 974px;
+
+ 
 
 
 }
@@ -242,7 +219,7 @@ color: black;
 .des
 {
 position: relative;
-left: 150px;
+left: 200px;
 bottom: 100px;
 
 
@@ -250,13 +227,15 @@ bottom: 100px;
 
 .h1:nth-child(2),.h1:nth-child(3),.h1:nth-child(4),.h1:nth-child(5),.h1:nth-child(6),.h1:nth-child(7)
 {
-width: 15vw;
-height: 250px;
+display: block;
+width: 320px;
+height: 270px;
 border: solid 1px red;
+border-radius: 20px 20px 20px 20px;
 box-sizing: border-box;
-padding-left: 25px;
-padding-top:5px ;
-
+padding-left:3px;
+padding-right:3px ;
+padding-top: 3px;
 
 
 
@@ -265,45 +244,46 @@ padding-top:5px ;
 .hp:nth-child(3),.hp:nth-child(4),.hp:nth-child(5)
 {
 width: 25vw;
-height: 150px;
+height: 170px;
 border: solid 1px red;
-box-sizing: border-box;
-padding-left: 15px;
-padding-top:15px ;
-position: relative;
-bottom: 70px;
-
+overflow: hidden;
 }
+
+
 
 .grand
 {
-height: 500px;
-width: 400px;
-
+display: block;    
+height: 520px;
+width: 405px;
+border-radius: 20px 20px 0 0;
 
 
 }
 
 .petit
 {
-
-height: 280px;
-width: 400px;
-
+display: block;
+height: 240px;
+width: 405px;
+border-radius: 20px 20px 0 0;
 
 }
 
 .imgh
 {
+display: block;
 width: 310px;
-height: 180px;
+height: 160px;
+border-radius: 20px 20px 0px 0px;
 
 
 }
 .imghp
 {
-width: 310px;
-height: 180px;
-
+display: block;
+height: 170px;
+width: 180px;
+border-radius:20px 0 0 20px;
 
 }
