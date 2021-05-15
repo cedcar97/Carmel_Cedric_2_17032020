@@ -17,8 +17,8 @@ font-family: "Raleway";
 
 #en-tete
 {
-height: 204px;
-width: 65vw;
+height: 280px;
+width: 1240px;
 border: 1px blue solid ;
 display: flex;
 flex-flow: row wrap;
@@ -46,7 +46,17 @@ border: 1px blue solid;
 
 }
 
-#hebergements
+#h
+{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around;
+
+
+
+}
+
+.hebergements:nth-child(1)
 {
 height: 835px;
 width: 1175px;
@@ -61,7 +71,7 @@ justify-content: space-around;
 
 }
 
-#hpopulaires
+.hebergements:nth-child(2)
 {
     height: 767px;
     width: 30vw;
@@ -77,19 +87,42 @@ justify-content: space-around;
 
 }
 
-#activites1,#activites2,#activites3,#activites4
+
+#activites
 {
-height: 600px;
+    height: 650px;
+    width: 100%;
+    border: 1px blue solid;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-around;
+align-content: space-around;
+}
+
+
+
+.acti:nth-child(1),.acti:nth-child(4)
+{
+
+height: 615px;
 width: 420px;
 border: 1px blue solid;
 display: block;
-flex-flow:column wrap;
-justify-content:space-between;
 box-sizing: border-box;
 padding: 5px;
 border-radius: 20px;    
 }
 
+.acti:nth-child(2),.acti:nth-child(3),.acti:nth-child(5),.acti:nth-child(6)
+{
+height: 300px;
+width: 420;
+border: 1px blue solid;
+display: block;
+box-sizing: border-box;
+padding: 5px;
+border-radius: 20px;    
+}
 
 
 #nav
@@ -126,7 +159,7 @@ border: blue 1px solid;
 align-self:center;
 
 height: 50px;
-width: 65vw;
+width: 1240px;
 border-bottom: solid 1px red;
 box-sizing: border-box;
 padding-left: 1vw;
@@ -135,8 +168,8 @@ padding-left: 1vw;
 
 .et:nth-child(1)
 {
-height: 50px;
-width: 65vw;
+height: 100px;
+width: 1240px;
 border-bottom: solid 1px red;
 align-self: flex-start;
 box-sizing: border-box;
@@ -160,18 +193,7 @@ justify-self: flex-start;
 
 
 
-.h1:nth-child(8)
-{
- text-align:left;
- height: 50px;
- width: 55vw;
- border: solid 1px red;
- box-sizing: border-box;
- padding: 10px;
- 
- 
 
-}
 
 .hp:nth-child(2)
 {
@@ -184,11 +206,12 @@ left:23vw;
 bottom: 83px;
 }
 
-.h1:nth-child(1)
+.h1:nth-child(1),.h1:nth-child(8)
 {
-width: 55vw;
+width: 1175px;
 
-border: solid 1px red;
+
+padding-left: 35px ;
 
 }
 
@@ -246,7 +269,7 @@ padding-top: 3px;
 width: 25vw;
 height: 170px;
 border: solid 1px red;
-overflow: hidden;
+border-radius: 20px;  
 }
 
 
