@@ -65,7 +65,7 @@ display: flex;
 flex-flow:row wrap;
 border-radius: 20px;
 justify-content: space-around;
-
+background-color:  #f2f2f2a8;
 
 
 }
@@ -82,7 +82,7 @@ justify-content: space-around;
     border-radius: 20px;
     box-sizing: border-box;
     padding-left: 50px;
-    
+    background-color:  #F2F2F2;
 
 }
 
@@ -180,14 +180,26 @@ padding-left: 10px;
 
 }
 
-.et:nth-child(3),.et:nth-child(4),.et:nth-child(5),.et:nth-child(6),.et:nth-child(7)
+.et:nth-child(4),.et:nth-child(5),.et:nth-child(6),.et:nth-child(7)
 {
 height: 61px;
 width: 12vw;
-border:solid 1px red;
+border:solid 1px  #f2f2f2;
 justify-self: flex-start;
 vertical-align: middle;
-border-radius: 30px;
+border-radius: 100000px;
+z-index: 0;
+
+}
+
+.et:nth-child(3)
+{
+    height: 30px;
+    width: 12vw;    
+    vertical-align: middle;
+    text-align: center;
+line-height: 10px;
+
 
 }
 
@@ -237,7 +249,7 @@ margin-top: 3.5vh;
 margin-right: 1vw;
 }
 
-.hp:nth-child(2),.hp:nth-child(1),.h1:nth-child(1),#act
+.hp:nth-child(2),.hp:nth-child(1),.h1:nth-child(1),#act,.et:nth-child(1) strong
 {
     font-size: 25px;
 
@@ -394,7 +406,7 @@ border-radius:20px 0 0 20px;
 
 }
 
-p strong,.acti strong
+p strong,.acti strong,.h1:nth-child(8)
 {
 font-weight: bold;
 font-size: 20px;
@@ -422,10 +434,12 @@ i.fa-heart, i.fa-child, i.fa-dog, i.fa-money-bill-wave
 {
 height: 60px;
 width: 60px;
-border: 1px red solid;
+border: 1px #DEEBFF solid;
 border-radius: 50%;
 font-size: 30px;
 text-align: center;
 vertical-align: middle;
 line-height: 60px;
+z-index: 15;
+background-color: #DEEBFF;
 }
