@@ -17,13 +17,13 @@ font-family: "Raleway";
 
 #en-tete
 {
-height: 280px;
-width: 1240px;
+height: 290px;
+width: 1250px;
 border: 1px blue solid ;
 display: flex;
 flex-flow: row wrap;
 justify-content:space-around;
-
+margin-bottom: 10vh;
 
 
 }
@@ -68,18 +68,17 @@ justify-content: space-around;
 
 
 
-
 }
 
 .hebergements:nth-child(2)
 {
-    height: 767px;
+    height: 835px;
     width: 30vw;
     border: 1px blue solid;
     display: flex;
-    flex-flow:column wrap;
-    justify-content:space-around;
-    align-content: flex-start;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+   align-content: flex-start;
     border-radius: 20px;
     box-sizing: border-box;
     padding-left: 50px;
@@ -90,12 +89,12 @@ justify-content: space-around;
 
 #activites
 {
-    height: 650px;
+    height: 615px;
     width: 100%;
-    border: 1px blue solid;
+    
 display: flex;
 flex-flow: column wrap;
-justify-content: space-around;
+justify-content: space-between;
 align-content: space-around;
 }
 
@@ -116,12 +115,14 @@ border-radius: 20px;
 .acti:nth-child(2),.acti:nth-child(3),.acti:nth-child(5),.acti:nth-child(6)
 {
 height: 300px;
-width: 420;
+width: 420px;
 border: 1px blue solid;
 display: block;
 box-sizing: border-box;
 padding: 5px;
-border-radius: 20px;    
+border-radius: 20px;  
+text-align:left;  
+
 }
 
 
@@ -146,6 +147,7 @@ width: 100%;
     justify-content:space-around;
     align-items:center ;
 border: blue 1px solid;
+margin-top: 10vh;
 
  
 
@@ -180,10 +182,19 @@ padding-left: 10px;
 
 .et:nth-child(3),.et:nth-child(4),.et:nth-child(5),.et:nth-child(6),.et:nth-child(7)
 {
-height: 30px;
-width: 10vw;
+height: 61px;
+width: 12vw;
 border:solid 1px red;
 justify-self: flex-start;
+vertical-align: middle;
+border-radius: 30px;
+
+}
+
+.et:nth-child(3) 
+{
+    
+line-height: 30px;
 
 
 
@@ -191,6 +202,27 @@ justify-self: flex-start;
 }
 
 
+
+
+.hp
+{
+box-sizing: border-box;
+margin-top: 3vh;
+
+
+
+
+}
+
+
+
+.hp:nth-child(1)
+{
+width: 23vw;
+height: 35px;
+border-bottom: solid 1px red;
+
+}
 
 
 
@@ -198,20 +230,35 @@ justify-self: flex-start;
 .hp:nth-child(2)
 {
 
-width: 1vw;
-height: 25px;
+width: 2vw;
+height: 30px;
 border-bottom: solid 1px red;
-position: relative;
-left:23vw;
-bottom: 83px;
+margin-top: 3.5vh;
+margin-right: 1vw;
 }
+
+.hp:nth-child(2),.hp:nth-child(1),.h1:nth-child(1),#act
+{
+    font-size: 25px;
+
+
+
+}
+#act,.h1:nth-child(1),.h1:nth-child(8)
+{
+box-sizing: border-box;
+padding-left: 2vw;
+
+
+}
+
 
 .h1:nth-child(1),.h1:nth-child(8)
 {
 width: 1175px;
 
 
-padding-left: 35px ;
+
 
 }
 
@@ -232,33 +279,51 @@ color:  #F2F2F2;
 
 }
 
-i.fa-chart-line
+i.fa-chart-line,i.fa-map-marker-alt
 {
 color: black;
 
 
 }
 
+
 .des
 {
 position: relative;
-left: 200px;
-bottom: 100px;
+left: 185px;
+bottom: 170px;
+
+
+}
+.des i.fa-star
+{
+position: relative;
+top: 80px;
 
 
 }
 
+.hp:nth-child(4) i.fa-star
+{
+    position: relative;
+    top: 60px;
+
+
+}
+
+
+
 .h1:nth-child(2),.h1:nth-child(3),.h1:nth-child(4),.h1:nth-child(5),.h1:nth-child(6),.h1:nth-child(7)
 {
 display: block;
-width: 320px;
-height: 270px;
+width: 17vw;
+height: 30vh;
 border: solid 1px red;
 border-radius: 20px 20px 20px 20px;
 box-sizing: border-box;
-padding-left:3px;
-padding-right:3px ;
-padding-top: 3px;
+padding-left:5px;
+padding-right:5px ;
+padding-top: 5px;
 
 
 
@@ -270,8 +335,26 @@ width: 25vw;
 height: 170px;
 border: solid 1px red;
 border-radius: 20px;  
+box-sizing: border-box;
+padding: 5px;
+
 }
 
+.hp:nth-child(4),.hp:nth-child(5)
+{
+box-sizing: border-box;
+margin-top: 6vh;
+
+
+}
+
+.h1 p
+{
+box-sizing: border-box;
+padding-left: 10px;
+
+
+}
 
 
 .grand
@@ -305,8 +388,44 @@ border-radius: 20px 20px 0px 0px;
 .imghp
 {
 display: block;
-height: 170px;
-width: 180px;
+height: 160px;
+width: 175px;
 border-radius:20px 0 0 20px;
 
+}
+
+p strong,.acti strong
+{
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.h1 p,.acti strong
+{
+line-height: 25px;
+
+
+
+}
+
+.acti strong
+{
+box-sizing: border-box;
+padding-left: 20px;
+font-weight: bolder;
+
+
+}
+
+i.fa-heart, i.fa-child, i.fa-dog, i.fa-money-bill-wave
+{
+height: 60px;
+width: 60px;
+border: 1px red solid;
+border-radius: 50%;
+font-size: 30px;
+text-align: center;
+vertical-align: middle;
+line-height: 60px;
 }
