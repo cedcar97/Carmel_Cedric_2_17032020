@@ -19,11 +19,11 @@ font-family: "Raleway";
 {
 height: 290px;
 width: 1450px;
-border: 1px blue solid ;
+
 display: flex;
 flex-flow: row wrap;
 justify-content:space-around;
-margin-bottom: 10vh;
+margin-bottom: 2vh;
 margin-left: 1.6vw;
 
 }
@@ -31,8 +31,8 @@ margin-left: 1.6vw;
 header
 {
 position: relative;
-bottom: 145px;
-
+bottom: 85px;
+left: 2vw;
 
 
 }
@@ -40,16 +40,17 @@ nav
 {
 position: relative;
 left: 68vw;
+bottom: 1vh;
 
-border: 1px blue solid;
+
 vertical-align: middle;
 line-height: 40px;
 font-size: 20px;
     box-sizing: border-box;
-    padding-top: 45px;
+    
     position: relative;
     
-    height: 130px;
+    height: 70px;
     width: 550px;
 }
 
@@ -67,12 +68,13 @@ justify-content: space-around;
 {
 height: 835px;
 width: 1175px;
-border: 1px blue solid;
+
 display: flex;
 flex-flow:row wrap;
 border-radius: 20px;
 justify-content: space-around;
 background-color:  #f2f2f2a8;
+margin-bottom: 10vh;
 
 
 }
@@ -81,7 +83,7 @@ background-color:  #f2f2f2a8;
 {
     height: 835px;
     width: 30vw;
-    border: 1px blue solid;
+   
     display: flex;
     flex-flow:row wrap;
     justify-content:flex-start;
@@ -97,7 +99,7 @@ background-color:  #f2f2f2a8;
 #activites
 {
     height: 615px;
-    width: 100%;
+    
     
 display: flex;
 flex-flow: column wrap;
@@ -112,24 +114,25 @@ align-content: space-around;
 
 height: 615px;
 width: 420px;
-border: 1px blue solid;
+
 display: block;
 box-sizing: border-box;
 padding: 5px;
-border-radius: 20px;    
+border-radius: 20px;
+box-shadow: 3px 3px 3px #F2F2F2;   
 }
 
 .acti:nth-child(2),.acti:nth-child(3),.acti:nth-child(5),.acti:nth-child(6)
 {
 height: 300px;
 width: 420px;
-border: 1px blue solid;
+
 display: block;
 box-sizing: border-box;
 padding: 5px;
 border-radius: 20px;  
 text-align:left;  
-
+box-shadow: 3px 3px 3px #F2F2F2;
 }
 
 
@@ -148,12 +151,12 @@ text-align:left;
 #pied_de_page
 {
     height: 204px;
-    width: 100%;
+    
     display: flex;
     flex-flow:column wrap;
     justify-content:space-around;
     align-items:center ;
-border: blue 1px solid;
+
 margin-top: 10vh;
 background-color: #F2F2F2;
 box-sizing: border-box;
@@ -203,7 +206,7 @@ max-width: 18vw;
 border-top:solid 3px  #F2F2F2;
 border-bottom:solid 3px  #f2f2f2 ;
 border-right: solid 3px  #f2f2f2;
-
+background-color: white;
 vertical-align: middle;
 border-radius: 0px 30px 30px 0px;
 z-index: 0;
@@ -215,6 +218,49 @@ margin-left: 15px;
 
 }
 
+.et:nth-child(4):hover
+{
+background-color: #F2F2F2;
+
+
+}
+
+.et:nth-child(5):hover
+{
+background-color: #F2F2F2;
+
+
+}
+
+.et:nth-child(6):hover
+{
+background-color: #F2F2F2;
+
+
+}
+
+.et:nth-child(7):hover
+{
+background-color: #F2F2F2;
+
+
+}
+
+a
+{
+text-decoration: none;
+
+
+
+}
+
+a:visited
+{
+text-decoration: none;
+color: black;
+
+
+}
 .et:nth-child(3)
 {
     
@@ -251,7 +297,7 @@ margin-top: 3vh;
 {
 width: 23vw;
 height: 35px;
-border-bottom: solid 1px red;
+
 
 }
 
@@ -263,7 +309,7 @@ border-bottom: solid 1px red;
 
 width: 2vw;
 height: 30px;
-border-bottom: solid 1px red;
+
 margin-top: 3.5vh;
 margin-right: 1vw;
 }
@@ -349,14 +395,14 @@ top: 80px;
 display: block;
 width: 17vw;
 height: 30vh;
-border: solid 1px red;
+
 border-radius: 20px 20px 20px 20px;
 box-sizing: border-box;
 padding-left:5px;
 padding-right:5px ;
 padding-top: 5px;
 background-color: white;
-
+box-shadow: 3px 3px 3px #F2F2F2;
 
 }
 
@@ -364,11 +410,12 @@ background-color: white;
 {
 width: 25vw;
 height: 170px;
-border: solid 1px red;
+
 border-radius: 20px;  
 box-sizing: border-box;
 padding: 5px;
 background-color: white;
+box-shadow: 3px 3px 3px #F2F2F2;
 }
 
 .hp:nth-child(4),.hp:nth-child(5)
@@ -515,4 +562,63 @@ border-radius: 8px 0px 0px 8px;
 position: relative;
 left: 10px;
 bottom: 1px;
+}
+
+.n:nth-child(1),.n:nth-child(3)
+{
+color: #0065FC;
+height: 88px;
+width: 140px;
+
+text-align: center;
+padding-top: 23px;
+
+}
+.n:nth-child(2)
+{
+    height: 88px;
+    width: 140px;
+    
+    text-align: center;    
+padding-top: 23px;
+
+}
+
+.n:nth-child(1):hover
+{
+    height: 88px;
+    width: 140px;
+border-top: #0065FC 3px solid;
+
+}
+
+.n:nth-child(2):hover
+{
+
+border-top: #0065FC 3px solid;
+height: 88px;
+width: 140px;
+}
+
+.n:nth-child(3):hover
+{
+
+border-top: #0065FC 3px solid;
+height: 88px;
+width: 140px;
+}
+
+
+i.fa-info-circle
+{
+color:  white;
+background-color:#0065FC ;
+border: #F2F2F2 1px solid;
+font-size: 20px;
+border-radius: 50%;
+margin-left: 2vw;
+margin-bottom: 10vh;
+
+
+
 }
