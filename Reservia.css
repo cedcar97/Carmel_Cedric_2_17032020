@@ -237,6 +237,13 @@ font-weight: bold;
 
 }
 
+.et:nth-child(1) span
+{
+line-height: 1px;
+font-weight: normal;
+
+}
+
 .et:nth-child(4),.et:nth-child(5),.et:nth-child(6),.et:nth-child(7)
 {
 height: 60px;
@@ -540,8 +547,11 @@ justify-content: flex-start;
 align-items: center;
 }
 
+h2>br
+{
+    font-weight: normal;
 
-
+}
 p strong,.acti strong
 {
 font-weight: bold;
@@ -567,8 +577,8 @@ i.fa-heart, i.fa-child, i.fa-dog, i.fa-money-bill-wave
 {
 height: 63px;
 width: 63px;
-border: 1px #DEEBFF solid;
-border-radius: 50%;
+
+border-radius: 66%;
 font-size: 30px;
 text-align: center;
 vertical-align: middle;
@@ -576,7 +586,7 @@ line-height: 60px;
 z-index: 15;
 background-color: #DEEBFF;
 position: relative;
-bottom: 3px;
+bottom: 1px;
 
 }
 
@@ -766,6 +776,24 @@ margin-bottom: 10vh;
 
     }
 
+}
+
+@media screen and (max-width:1499px) and (min-width:1400px)
+
+{
+    .imgh img
+    {
+        height: auto;
+        width: 100%; 
+
+    }
+
+    #Panierimg
+    {
+        width: auto;
+        height: 100%;
+    }
+  
 }
 
 @media screen and (max-width:1295px) and (min-width:1211px)
@@ -1004,7 +1032,15 @@ font-size: 1em;
 
 
 }
+@media screen and (max-width:900px) and (min-width:400px )
 
+{
+    .petit1,.petit2,.grand,.imgh
+    {
+        align-items: center;
+
+    } 
+}
 
 @media  screen  and (max-width: 830px) 
 
@@ -1290,7 +1326,7 @@ padding:0px;
 {
 height: 155px;
 width: 100%;
-align-items: flex-start;
+
 
 }
 
@@ -1345,10 +1381,53 @@ min-width: 300px;
 box-sizing: border-box;
 padding-left: 5%;
 padding-top: 6%;
-font-weight: 570;
+font-weight: normal;
 
 
 }
+@media screen and (max-width: 404px) and (min-width: 350px)
+
+{
+    .des
+    {
+    
+    font-size: 1em;
+    
+    
+    
+    }
+    
+    .des i,.hp:nth-child(4) i.fa-star 
+    {
+    font-size: 1em;
+    line-height: 160px;
+    
+    }   
+    
+
+    p strong
+    {
+        font-size: 1.2em;
+        line-height: 20px;
+
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 370px) and (min-width: 350px)
+
+{
+    #blancimg
+    {
+        height: 100%;
+        width: auto;
+
+    } 
+}
+
 
 
 @media screen and (max-width: 349px)
@@ -1386,55 +1465,8 @@ font-weight: 570;
     } 
 
 }
-@media screen and (max-width: 370px) and (min-width: 350px)
-
-{
-    #blancimg
-    {
-        height: 100%;
-        width: auto;
-
-    } 
-}
-@media screen and (max-width: 404px) and (min-width: 350px)
-
-{
-    .des
-    {
-    
-    font-size: 1em;
-    
-    
-    
-    }
-    
-    .des i,.hp:nth-child(4) i.fa-star 
-    {
-    font-size: 1em;
-    line-height: 160px;
-    
-    }   
-    
-
-    p strong
-    {
-        font-size: 1.2em;
-        line-height: 20px;
 
 
-    }
-
-}
-
-@media screen and (max-width:900px) and (min-width:400px )
-
-{
-    .petit1,.petit2,.grand,.imgh
-    {
-        align-items: center;
-
-    } 
-}
 
 }
 
