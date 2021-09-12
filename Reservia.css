@@ -38,6 +38,11 @@ width: 100px;
 
 }
 
+form
+{
+width: fit-content;
+}
+
 
 #tete
 { height: 55px;
@@ -1212,7 +1217,7 @@ border-radius: 20% ;
 
 input[type=text]
 {
-width: 60%;
+width: 56%;
 
 
 
