@@ -160,7 +160,7 @@ width: 22.25%;
     
 }
 
-.acti:nth-child(1),.acti:nth-child(2),.acti:nth-child(3),.acti:nth-child(4),.acti:nth-child(5),.acti:nth-child(6)
+.acti
 {
     
    
@@ -258,13 +258,13 @@ border-bottom:solid 2px  #d9d9d9 ;
 border-right: solid 2px  #d9d9d9;
 background-color: white;
 vertical-align: middle;
-border-radius: 0px 30px 30px 0px;
+border-radius: 30px 30px 30px 30px;
 z-index: 0;
 
 
 padding-right: 20px;
 
-border-radius: 40px;
+
 
 }
 
