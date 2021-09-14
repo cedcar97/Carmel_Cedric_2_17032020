@@ -244,7 +244,7 @@ font-weight: normal;
 
 .en-teteElements:nth-child(4),.en-teteElements:nth-child(5),.en-teteElements:nth-child(6),.en-teteElements:nth-child(7)
 {
-height: 60px;
+height: 50px;
 width: fit-content;
 border-top:solid 2px  #d9d9d9;
 border-bottom:solid 2px  #d9d9d9 ;
@@ -573,14 +573,14 @@ padding-left: 5%;
 
 i.fa-heart, i.fa-child, i.fa-dog, i.fa-money-bill-wave
 {
-height: 63px;
-width: 63px;
+height: 53px;
+width: 53px;
 
-border-radius: 66%;
-font-size: 30px;
+border-radius: 50%;
+font-size: 25px;
 text-align: center;
 vertical-align: middle;
-line-height: 60px;
+line-height: 50px;
 z-index: 15;
 background-color: #DEEBFF;
 position: relative;
