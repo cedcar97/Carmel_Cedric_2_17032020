@@ -30,7 +30,10 @@ margin-bottom: 2%;
 
 form
 {
-width: fit-content;
+display: flex;
+flex-flow: row nowrap;
+justify-content: flex-start;
+align-items: center;
 }
 
 #navigation
@@ -218,6 +221,7 @@ vertical-align: middle;
 border-radius: 30px 30px 30px 30px;
 z-index: 0;
 padding-right: 20px;
+margin-right: 5px;
 }
 
 .en-teteElements:nth-child(4):hover,.en-teteElements:nth-child(5):hover,.en-teteElements:nth-child(6):hover,.en-teteElements:nth-child(7):hover
@@ -472,7 +476,7 @@ i.fa-heart, i.fa-child, i.fa-dog, i.fa-money-bill-wave
 height: 53px;
 width: 53px;
 border-radius: 50%;
-font-size: 25px;
+font-size: 20px;
 text-align: center;
 vertical-align: middle;
 line-height: 50px;
@@ -480,11 +484,14 @@ z-index: 15;
 background-color: #DEEBFF;
 position: relative;
 bottom: 1px;
+
 }
 
 .en-teteElements strong
 {
-font-size: 1.25em;
+font-size: 1.10rem;
+margin-left: 5px;
+margin-right: 5px;
 }
 
 input[type=button]
@@ -934,6 +941,7 @@ margin-bottom: 10vh;
     white-space: nowrap;
     width: fit-content;
     justify-self: start;
+    margin-left: 2%;
     }
 
     .en-teteElements:nth-child(3)
@@ -945,14 +953,15 @@ margin-bottom: 10vh;
     }
     .en-teteElements:nth-child(4)
     {
-    margin-left: 0%;
+    
     padding-right: 7px;
-    margin-right: 0%;
+    margin-left: 2%;
+    
     }
 
     .en-teteElements:nth-child(5)
     {
-    margin-left: 2px;
+    
     padding-right: 7px;
     }
 
@@ -974,17 +983,17 @@ margin-bottom: 10vh;
     background-color: #0065FC;
     border: none;
     font-size: 20px;
-    position: relative;
-    left: 80%;
-    bottom: 48px;
     border-radius: 20% ;
+    z-index: 15;
 
     }
 
     input[type=text]
     {
-    width: 56%;
+    width: 60%;
+    min-width: 200px;
     }
+
     #h
     {
     display: flex;
